@@ -39,4 +39,4 @@
             app:srcCompat="@drawable/ic_baseline_delete_24"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
+</com.google.android.material.card.MaterialCardView>
