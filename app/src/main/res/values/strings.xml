@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TranslatorFinalProject</string>
+    <string-array name="Lang_array">
+        <item>Farsi</item>
+        <item>English</item>
+    </string-array>
 </resources>
