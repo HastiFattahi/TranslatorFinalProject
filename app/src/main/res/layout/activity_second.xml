@@ -123,7 +123,7 @@
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true">
         <EditText
-            android:id="@+id/searchEt"
+            android:id="@+id/searchedittxt"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -134,12 +134,13 @@
             android:textColor="@color/black"
             android:textSize="14sp" />
 
-        <ImageView
-            android:id="@+id/searchIv"
+        <ImageButton
+            android:id="@+id/searchimg"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginRight="10dp"
             android:layout_gravity="right|center_vertical"
+            android:backgroundTint="@color/white"
             app:srcCompat="@drawable/ic_baseline_search_24" />
 
         <ProgressBar
@@ -187,7 +188,7 @@
             android:gravity="center"
             android:visibility="invisible"
             android:layout_marginTop="24dp"
-            android:text="No words are translated yet."/>
+            android:text="Nothing to show!"/>
 
 
     </LinearLayout>
