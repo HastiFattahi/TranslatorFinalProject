@@ -15,7 +15,7 @@ public class translation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_translation);
 
-        getSupportActionBar().hide();
+
         yourEdt= findViewById(R.id.YourEdt);
         resultEdt=findViewById(R.id.ResultEdt);
         Intent intent=getIntent();

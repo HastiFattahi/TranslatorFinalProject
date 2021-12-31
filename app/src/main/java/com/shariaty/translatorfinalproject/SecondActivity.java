@@ -134,7 +134,7 @@ public class SecondActivity extends AppCompatActivity implements AdapterView.OnI
     }
     public String GetURL(String Token,String Word,String language){
 
-            return "http://api.vajehyab.com/v3/search?token="+Token+"&q="+Word+"&type=Text&filter="+language;
+            return "http://api.vajehyab.com/v3/search?token="+Token+"&q="+Word+"&type=exact&filter="+language;
 
     }
 
